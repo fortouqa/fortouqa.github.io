@@ -31,14 +31,14 @@ span {
   z-index: 1;
   position: absolute;
   display: block;
-  overflow: auto;
+  overflow: auto; /* Enable scrolling */
   word-wrap: break-word;
   font-family: "Sriracha", cursive;
   font-size: 1.2em;
   line-height: 1.5em;
   padding: 10px;
   box-sizing: border-box;
-  white-space: pre-wrap; /* To preserve whitespace and line breaks */
+  white-space: pre-wrap; /* Preserve whitespace and line breaks */
 }
 textarea {
   width: 40%;
