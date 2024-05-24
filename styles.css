@@ -19,11 +19,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-}
-.paper img {
-  height: 100%;
-  width: auto;
 }
 span {
   height: 390px;
@@ -38,6 +33,14 @@ span {
   font-size: 1.2em;
   line-height: 20px;
 }
+.paper img {
+  height: 100%;
+  width: auto;
+}
+input {
+  display: none;
+}
+
 textarea {
   width: 40%;
   outline: none;
@@ -45,6 +48,6 @@ textarea {
   border: none;
   color: pink;
   resize: none;
-  font-size: 1.2em;
+  font-size: 1.2;
   text-align: center;
 }
