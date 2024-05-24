@@ -19,28 +19,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.paper img {
+  height: 100%;
+  width: auto;
 }
 span {
   height: 390px;
   width: 260px;
   z-index: 1;
   position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
-  word-wrap: break-all;
+  display: block;
+  overflow: auto;
+  word-wrap: break-word;
   font-family: "Sriracha", cursive;
   font-size: 1.2em;
-  line-height: 20px;
+  line-height: 1.5em;
+  padding: 10px;
+  box-sizing: border-box;
+  white-space: pre-wrap; /* To preserve whitespace and line breaks */
 }
-.paper img {
-  height: 100%;
-  width: auto;
-}
-input {
-  display: none;
-}
-
 textarea {
   width: 40%;
   outline: none;
@@ -48,6 +47,6 @@ textarea {
   border: none;
   color: pink;
   resize: none;
-  font-size: 1.2;
+  font-size: 1.2em;
   text-align: center;
 }
